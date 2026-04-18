@@ -4,3 +4,9 @@ coverage
 examples/*.png
 browser\.js
 .nyc_output
+debian/debhelper-build-stamp
+debian/node-pngjs.substvars
+debian/.debhelper/
+debian/node-pngjs/
+
+debian/files

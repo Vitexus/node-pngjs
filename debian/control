@@ -1,0 +1,24 @@
+Source: node-pngjs
+Section: javascript
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-nodejs,
+ pkg-js-tools
+Standards-Version: 4.7.0
+Homepage: https://github.com/lukeapage/pngjs
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/node-pngjs.git
+#Vcs-Browser: https://salsa.debian.org/debian/node-pngjs
+
+Package: node-pngjs
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends}
+Description: Pure JavaScript PNG encoder/decoder for Node.js
+ pngjs is a pure JavaScript PNG encoder/decoder for Node.js. It supports
+ reading and writing PNG files, including support for various color types,
+ bit depths, and interlacing. Useful for image processing in Node.js
+ applications.

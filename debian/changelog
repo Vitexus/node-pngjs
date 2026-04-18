@@ -1,0 +1,13 @@
+node-pngjs (3.0.0) UNRELEASED; urgency=medium
+
+  * deb
+
+ -- vitex <info@vitexsoftware.cz>  Sat, 18 Apr 2026 14:56:28 +0200
+
+node-pngjs (0.1.0) unstable; urgency=low
+
+  [ Vítězslav Dvořák ]
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- vitex <info@vitexsoftware.cz>  Sat, 18 Apr 2026 14:56:23 +0200

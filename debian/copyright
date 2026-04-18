@@ -1,0 +1,289 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: node-pngjs
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .eslintignore
+           .eslintrc.json
+           .github/dependabot.yml
+           .github/workflows/ci.yml
+           .gitignore
+           .prettierignore
+           CHANGELOG.md
+           README.md
+           examples/16bit_write.js
+           examples/fromdocs.js
+           examples/newfile.js
+           examples/set-colortype.js
+           examples/simple.js
+           examples/sync.js
+           lib/bitmapper.js
+           lib/bitpacker.js
+           lib/chunkstream.js
+           lib/constants.js
+           lib/crc.js
+           lib/filter-pack.js
+           lib/filter-parse-async.js
+           lib/filter-parse-sync.js
+           lib/filter-parse.js
+           lib/format-normaliser.js
+           lib/interlace.js
+           lib/packer-async.js
+           lib/packer-sync.js
+           lib/packer.js
+           lib/paeth-predictor.js
+           lib/parser-async.js
+           lib/parser-sync.js
+           lib/parser.js
+           lib/png-sync.js
+           lib/png.js
+           lib/sync-inflate.js
+           lib/sync-reader.js
+           package.json
+           test/.gitignore
+           test/bg-ref.png
+           test/bg-spec.js
+           test/bg.png
+           test/convert-images-spec.js
+           test/http-server.js
+           test/in/PngSuite.png
+           test/in/basi0g01.png
+           test/in/basi0g02.png
+           test/in/basi0g04.png
+           test/in/basi0g08.png
+           test/in/basi0g16.png
+           test/in/basi2c08.png
+           test/in/basi2c16.png
+           test/in/basi3p01.png
+           test/in/basi3p02.png
+           test/in/basi3p04.png
+           test/in/basi3p08.png
+           test/in/basi4a08.png
+           test/in/basi4a16.png
+           test/in/basi6a08.png
+           test/in/basi6a16.png
+           test/in/basn0g01.png
+           test/in/basn0g02.png
+           test/in/basn0g04.png
+           test/in/basn0g08.png
+           test/in/basn0g16.png
+           test/in/basn2c08.png
+           test/in/basn2c16.png
+           test/in/basn3p01.png
+           test/in/basn3p02.png
+           test/in/basn3p04.png
+           test/in/basn3p08.png
+           test/in/basn4a08.png
+           test/in/basn4a16.png
+           test/in/basn6a08.png
+           test/in/basn6a16.png
+           test/in/bgai4a08.png
+           test/in/bgai4a16.png
+           test/in/bgan6a08.png
+           test/in/bgan6a16.png
+           test/in/bgbn4a08.png
+           test/in/bggn4a16.png
+           test/in/bgwn6a08.png
+           test/in/bgyn6a16.png
+           test/in/ccwn2c08.png
+           test/in/ccwn3p08.png
+           test/in/cdfn2c08.png
+           test/in/cdhn2c08.png
+           test/in/cdsn2c08.png
+           test/in/cdun2c08.png
+           test/in/ch1n3p04.png
+           test/in/ch2n3p08.png
+           test/in/cm0n0g04.png
+           test/in/cm7n0g04.png
+           test/in/cm9n0g04.png
+           test/in/cs3n2c16.png
+           test/in/cs3n3p08.png
+           test/in/cs5n2c08.png
+           test/in/cs5n3p08.png
+           test/in/cs8n2c08.png
+           test/in/cs8n3p08.png
+           test/in/ct0n0g04.png
+           test/in/ct1n0g04.png
+           test/in/cten0g04.png
+           test/in/ctfn0g04.png
+           test/in/ctgn0g04.png
+           test/in/cthn0g04.png
+           test/in/ctjn0g04.png
+           test/in/ctzn0g04.png
+           test/in/f00n0g08.png
+           test/in/f00n2c08.png
+           test/in/f01n0g08.png
+           test/in/f01n2c08.png
+           test/in/f02n0g08.png
+           test/in/f02n2c08.png
+           test/in/f03n0g08.png
+           test/in/f03n2c08.png
+           test/in/f04n0g08.png
+           test/in/f04n2c08.png
+           test/in/f99n0g04.png
+           test/in/g03n0g16.png
+           test/in/g03n2c08.png
+           test/in/g03n3p04.png
+           test/in/g04n0g16.png
+           test/in/g04n2c08.png
+           test/in/g04n3p04.png
+           test/in/g05n0g16.png
+           test/in/g05n2c08.png
+           test/in/g05n3p04.png
+           test/in/g07n0g16.png
+           test/in/g07n2c08.png
+           test/in/g07n3p04.png
+           test/in/g10n0g16.png
+           test/in/g10n2c08.png
+           test/in/g10n3p04.png
+           test/in/g25n0g16.png
+           test/in/g25n2c08.png
+           test/in/g25n3p04.png
+           test/in/gh-21.png
+           test/in/oi1n0g16.png
+           test/in/oi1n2c16.png
+           test/in/oi2n0g16.png
+           test/in/oi2n2c16.png
+           test/in/oi4n0g16.png
+           test/in/oi4n2c16.png
+           test/in/oi9n0g16.png
+           test/in/oi9n2c16.png
+           test/in/pp0n2c16.png
+           test/in/pp0n6a08.png
+           test/in/ps1n0g08.png
+           test/in/ps1n2c16.png
+           test/in/ps2n0g08.png
+           test/in/ps2n2c16.png
+           test/in/s01i3p01.png
+           test/in/s01n3p01.png
+           test/in/s02i3p01.png
+           test/in/s02n3p01.png
+           test/in/s03i3p01.png
+           test/in/s03n3p01.png
+           test/in/s04i3p01.png
+           test/in/s04n3p01.png
+           test/in/s05i3p02.png
+           test/in/s05n3p02.png
+           test/in/s06i3p02.png
+           test/in/s06n3p02.png
+           test/in/s07i3p02.png
+           test/in/s07n3p02.png
+           test/in/s08i3p02.png
+           test/in/s08n3p02.png
+           test/in/s09i3p02.png
+           test/in/s09n3p02.png
+           test/in/s32i3p04.png
+           test/in/s32n3p04.png
+           test/in/s33i3p04.png
+           test/in/s33n3p04.png
+           test/in/s34i3p04.png
+           test/in/s34n3p04.png
+           test/in/s35i3p04.png
+           test/in/s35n3p04.png
+           test/in/s36i3p04.png
+           test/in/s36n3p04.png
+           test/in/s37i3p04.png
+           test/in/s37n3p04.png
+           test/in/s38i3p04.png
+           test/in/s38n3p04.png
+           test/in/s39i3p04.png
+           test/in/s39n3p04.png
+           test/in/s40i3p04.png
+           test/in/s40n3p04.png
+           test/in/tbbn0g04.png
+           test/in/tbbn2c16.png
+           test/in/tbbn3p08.png
+           test/in/tbgn2c16.png
+           test/in/tbgn3p08.png
+           test/in/tbrn2c08.png
+           test/in/tbwn0g16.png
+           test/in/tbwn3p08.png
+           test/in/tbyn3p08.png
+           test/in/tm3n3p02.png
+           test/in/tp0n0g08.png
+           test/in/tp0n2c08.png
+           test/in/tp0n3p08.png
+           test/in/tp1n3p08.png
+           test/in/xc1n0g08.png
+           test/in/xc9n2c08.png
+           test/in/xcrn0g04.png
+           test/in/xcsn0g01.png
+           test/in/xd0n2c08.png
+           test/in/xd3n2c08.png
+           test/in/xd9n2c08.png
+           test/in/xdtn0g01.png
+           test/in/xhdn0g08.png
+           test/in/xlfn0g04.png
+           test/in/xs1n0g01.png
+           test/in/xs2n0g01.png
+           test/in/xs4n0g01.png
+           test/in/xs7n0g01.png
+           test/in/z00n2c08.png
+           test/in/z03n2c08.png
+           test/in/z06n2c08.png
+           test/in/z09n2c08.png
+           test/out/.gitignore
+           test/outsync/.gitignore
+           test/png-parse-data/1bit.png
+           test/png-parse-data/accum.png
+           test/png-parse-data/grayscale.png
+           test/png-parse-data/indexed.png
+           test/png-parse-data/indexedalpha.png
+           test/png-parse-data/paeth.png
+           test/png-parse-data/truecolor.png
+           test/png-parse-data/truecoloralpha.png
+           test/png-parse-data/with_bad_type.png
+           test/png-parse-spec.js
+           test/run-compare.js
+           yarn.lock
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     test/imagediff.js
+           test/in/PngSuite.README
+Copyright: 2011 Willem van Schaik willem@schaik.com Calgary, April
+           2011-2012 Carl Sutherland, Humble Software Distributed under the MIT License For original source and documentation visit: http://www.github.com/HumbleSoftware/js-imagediff
+License:   __NO_LICENSE__
+
+Files:     test/in/PngSuite.LICENSE
+Copyright: 1996-2011 Willem van Schaik,
+License:   __UNKNOWN__
+ Permission to use, copy, modify and distribute these images for any
+ purpose and without fee is hereby granted.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         test/index.html
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         test/in/large.png
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ pngjs original work Copyright (c) 2015 Luke Page & Original Contributors
+ pngjs derived work Copyright (c) 2012 Kuba Niegowski
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
